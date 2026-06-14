@@ -3,26 +3,91 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Politics</title>
+<title>Political News Portal</title>
 <link rel="stylesheet" href="politics.css">
+
 </head>
 <body>
 
-<div class="politics-banner">
+<header class="top-header">
 
-    <!-- Left Logo -->
     <div class="logo">
         <img id="logo" src="images/24_india_times.png" alt="24 India Times Logo" height="70" >
     </div>
 
-    <!-- Politics Title -->
-    <h1 class="politics-title">
-        <span class="dots">● ●</span>
+    <h1 class="page-title">
+        <span>● ●</span>
         Politics
-        <span class="dots">● ●</span>
+        <span>● ●</span>
     </h1>
 
+</header>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Elections</a></li>
+        <li><a href="#">Government</a></li>
+        <li><a href="#">World</a></li>
+    </ul>
+</nav>
+
+<div class="breaking">
+    <div class="breaking-label">BREAKING</div>
+    <marquee>
+        Latest political updates • Election campaign highlights • Government announcements • International affairs
+    </marquee>
 </div>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Voice of Democracy</h1>
+        <p>
+            Bringing trusted political news, election updates,
+            policy analysis and public affairs coverage.
+        </p>
+
+        <a href="#" class="btn">Read Latest News</a>
+    </div>
+</section>
+
+<section class="news-section">
+
+    <h2 class="section-title">Latest Headlines</h2>
+
+    <div class="news-grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=800&q=80">
+            <div class="card-content">
+                <h3>National Politics</h3>
+                <p>Coverage of parliamentary debates and government policies.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80">
+            <div class="card-content">
+                <h3>Election Updates</h3>
+                <p>Live election campaigns, surveys and voter insights.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1541872705-1f73c6400ec9?auto=format&fit=crop&w=800&q=80">
+            <div class="card-content">
+                <h3>World Affairs</h3>
+                <p>International politics, diplomacy and global developments.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+    © 2026 Political News Portal. All Rights Reserved.
+</footer>
 
 </body>
 </html>
