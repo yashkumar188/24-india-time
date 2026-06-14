@@ -11,7 +11,7 @@ body{
 
 /* Top Header */
 .top-header{
-    background:linear-gradient(90deg,#001f54,#003f88,#d90429);
+    background:linear-gradient(90deg,white,navy,#d90429);
     height:110px;
     display:flex;
     align-items:center;
@@ -26,14 +26,13 @@ body{
 
 .logo img{
     height:70px;
-    background:white;
     padding:5px;
     border-radius:6px;
 }
 
 .page-title{
     color:white;
-    font-size:3rem;
+    font-size:50px;
     font-weight:bold;
 }
 
@@ -43,27 +42,33 @@ body{
 
 /* Navbar */
 .navbar{
-    background:#001845;
+    background:#FFFFFF;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
 }
 
-.navbar ul{
+/* .navbar ul{
     display:flex;
     justify-content:center;
     list-style:none;
-}
-
-.navbar li{
-    padding:18px 25px;
-}
+} */
 
 .navbar a{
     text-decoration:none;
-    color:white;
+    color:navy;
     font-weight:600;
+    font-size:25px;
+    border:2px solid transparent;
+    padding:5px 10px;
 }
 
 .navbar a:hover{
-    color:#ffd60a;
+    border-radius:5px;
+    background:navy;
+    color:white;
 }
 
 /* Breaking News */
