@@ -6,7 +6,7 @@
 }
 
 .top-header{
-    background:linear-gradient(90deg,rgb(76, 191, 222),rgb(288, 12, 48),rgb(76, 191, 222));
+    background:linear-gradient(90deg,white,navy,#d90429); 
     height:110px;
     display:flex;
     align-items:center;
@@ -48,9 +48,13 @@
 
 .navbar a{
     text-decoration:none;
-    color:rgb(21, 161, 231);
+    color:navy;
     font-weight:600;
     font-size:25px;
     border:2px solid transparent;
     padding:5px 10px;
+}
+
+.navbar a:hover {
+  transform: translateY(-2px);
 }
