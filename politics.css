@@ -167,6 +167,9 @@ body{
     height:220px;
     object-fit:cover;
 }
+.card:hover {
+  transform: translateY(-2px);
+}
 
 .card-content{
     padding:20px;
@@ -180,6 +183,14 @@ body{
 .card-content p{
     color:#555;
     line-height:1.6;
+}
+
+.read-more{
+    display:inline-block;
+    margin-top:15px;
+    color:#d90429;
+    text-decoration:none;
+    font-weight:bold;
 }
 
 .footer{
